@@ -303,6 +303,7 @@ nav .nav-item ul li:hover{
 /* ======= Sub Part Start ===== */
 .sub-main{
     display: flex;
+    height: 440px;
 }
 
 .left-sub{
@@ -324,6 +325,9 @@ nav .nav-item ul li:hover{
     margin-top: 28px;
     background: #ff9b51;
 }
+#sub-part .right-sub h3{
+    color: rgb(33, 37, 41);
+}
 .sub-main .right-sub p{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -332,3 +336,122 @@ nav .nav-item ul li:hover{
 }
 
 /* ======= Sub Part End ===== */
+
+/* ======= Standard Part Start ===== */
+#standard-part{
+    background: #F5F5F5;
+    height: 490px;
+}
+#standard-part .box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 98px;
+}
+#standard-part .box .left{
+   width: 48%;
+   margin-top: 100px;
+}
+#standard-part .box .left img{
+   width: 100%;
+}
+#standard-part .box .left .arrow{
+    display: inline-block;
+    width: 75px;
+    height: 3px;
+    background: #ff9b51;
+    margin-top: 25px;
+}
+#standard-part .box .left h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700; 
+}
+#standard-part .box .left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(128, 128, 128); 
+    margin-top: 25px;
+}
+#standard-part .box .right{
+   width: 48%;
+   margin-top: 100px;
+}
+
+
+/* ======= Standard Part End ===== */
+
+/* ======= Awesome Part Start ===== */
+.awesome-Part .up-part {
+    width: 45%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.awesome-Part .up-part h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+.awesome-Part .up-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+    margin-top: 10px;
+}
+
+.awesome-Part .up-part .arrow {
+    display: inline-block;
+    width: 75px;
+    height: 2px;
+    margin-top: 20px;
+    background: #ff9b51;
+}
+
+.awesome-Part .down-part {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.awesome-Part .down-part .box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.awesome-Part .down-part .box .logo {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff9b51;
+    color: #ff9b51;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.awesome-Part .down-part .box h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 25px 0 10px;
+    font-weight: 700;
+}
+
+.awesome-Part .down-part .box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .5;
+
+}
+
+
+/* ======= Awesome Part End ===== */
