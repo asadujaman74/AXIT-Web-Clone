@@ -277,29 +277,40 @@ nav .nav-item ul li:hover{
     color: #fff;
     
 }
-.box1{
+.left-tabs-box .btn1 button{
+    justify-content: centet;
+    align-items: center;
     height: 80px;
     width: 100px;
     border-radius: 3px;
     background: #ff9b51;
     cursor: pointer;
+    color: #fff;
+    border: none;
 }
-.box2{
+.left-tabs-box .btn2 button{
+    justify-content: centet;
+    align-items: center;
     height: 80px;
     width: 100px;
     border-radius: 3px;
-    background: #000;
-    margin-top: 5px;
+    margin-top: 10px;
+    background: #333333;
     cursor: pointer;
+    color: #fff;
 }
-.box3{
+.left-tabs-box .btn3 button{
+    justify-content: centet;
+    align-items: center;
     height: 80px;
     width: 100px;
     border-radius: 3px;
-    background: #000;
-    margin-top: 5px;
+    background: #333333;
     cursor: pointer;
+    color: #fff;
+    margin-top: 10px;
 }
+
 .left-tabs-box{
     height: 100px;
     width: 13%;
