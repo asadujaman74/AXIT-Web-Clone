@@ -335,6 +335,30 @@ nav .nav-item ul li:hover{
     margin-top: 28px;
 }
 
+.sub-main .right-sub .icon-list {
+    display: flex;
+    margin-top: 40px;
+}
+
+.sub-main .right-sub .icon-list span {
+    padding-left: 20px;
+    color: rgb(128, 128, 128);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.sub-main .right-sub .icon-list .icon-box {
+    width: 54px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #D6742F;
+    color: #D6742F;
+}
+
 /* ======= Sub Part End ===== */
 
 /* ======= Standard Part Start ===== */
@@ -382,6 +406,9 @@ nav .nav-item ul li:hover{
 /* ======= Standard Part End ===== */
 
 /* ======= Awesome Part Start ===== */
+.awesome-Part{
+    height: 400px;
+}
 .awesome-Part .up-part {
     width: 45%;
     margin: 40px auto;
@@ -455,3 +482,38 @@ nav .nav-item ul li:hover{
 
 
 /* ======= Awesome Part End ===== */
+
+/* ======= Pricing Part Start ===== */
+#pricing-part{
+    background: #F5F5F5;
+}
+#pricing-part .up-part{
+    width: 45%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#pricing-part .up-part h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+#pricing-part .up-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+    margin-top: 10px;
+}
+
+#pricing-part .up-part .arrow {
+    display: inline-block;
+    width: 75px;
+    height: 2px;
+    margin-top: 20px;
+    background: #ff9b51;
+}
+
+/* ======= Pricing Part End ===== */
