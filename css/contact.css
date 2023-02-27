@@ -1,0 +1,80 @@
+/* <----------------- Contact Section -----------------> */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: #1e272e;
+    height: 70vh;
+    background-position: center;
+    background-size:cover;
+    background-origin:border-box;
+    background-repeat: no-repeat;
+}
+.left-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 30px 0px;
+}
+.left-contact h3{
+    font-size: 30px;
+    color: aliceblue;
+}
+.left-contact span{
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background: hotpink;
+}
+
+
+.left-contact p{
+    font-size: 22px;
+    color: aliceblue;
+}
+.right-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.form-left form , .form-right form{
+    background-color: #4b4b4b;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 33em;
+
+}
+.form-left form input, .form-right form input{
+    padding: 18px 0px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid indigo;
+    margin-bottom: 2px;
+}
+.form-right form textarea::placeholder{
+    color: #222f3e;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.download-btn{
+    margin-top:25px;
+    margin-left: 25px;
+    padding:14px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #706fd3;
+    transition: ease-in-out 0.25s;
+}
+.download-btn:hover{
+    box-shadow: 5px 0px 10px yellowgreen;
+}
