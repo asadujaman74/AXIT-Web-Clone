@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     padding: 30px 0px;
-    background-color: #1e272e;
+    background-color: #F5F5F5;
     height: 70vh;
     background-position: center;
     background-size:cover;
@@ -19,12 +19,13 @@
 }
 .left-contact h3{
     font-size: 30px;
-    color: aliceblue;
+    color: #1e272e;
 }
 .left-contact span{
     display: inline-block;
-    width: 50px;
-    height: 5px;
+    width: 150px;
+    height: 3px;
+    margin-top: 10px;
     background: hotpink;
 }
 
@@ -63,8 +64,7 @@
 }
 
 .download-btn{
-    margin-top:25px;
-    margin-left: 25px;
+    margin: 25px 25px 0px 42%;
     padding:14px 22px;
     font-size: 16px;
     font-weight: bold;
