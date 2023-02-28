@@ -2,52 +2,46 @@ const btn1=document.getElementById("tab1");
 const btn2=document.getElementById("tab2");
 const btn3=document.getElementById("tab3");
 
+
+let arr = ["Tab1 with soft transitioning effect!", "Tab2 with soft Transition Heading", "Tab3 with soft My Heading" ]
+const head = document.querySelector('.head');
+const p1 =  document.querySelector('.cp1')
+const p2 =  document.querySelector('.cp2')
+
+
 // Buttton1
 btn1.addEventListener('click',()=>{
-    if(btn2.classList[1]=="active"){
+    
         btn2.classList.remove("active");
-        btn1.classList.add("active")
-    }else if(btn3.classList[1]=="active"){
         btn3.classList.remove("active");
         btn1.classList.add("active");
-    }
-    const heading=document.querySelector('.tab-content h1')
-    heading.innerHTML="Tabs with soft transitioning effect!"
-    const paras=document.querySelectorAll('.tab-content p')
-    for(let para of paras){
-        para.innerHTML=`About Me: I'm Rizone Hasan
-        Fullstack Developer I’m a Full-stack web developer. I have a passion for learning and sharing my knowledge with others. `
-    }
+    
+    head.innerHTML=arr[0]
+    p1.innerHTML= 'What is text message marketing? Text message marketing is the ongoing process of communicating business news, sales'
+    p2.innerHTML='promotions or other relevant information to your customers via SMS (short message service) text messages on their mobile devices.'
 })
+
+
 // Buttton2
 btn2.addEventListener('click',()=>{
-    if(btn1.classList[1]=="active"){
+    
         btn1.classList.remove("active");
-        btn2.classList.add("active")
-    }else if(btn3.classList[1]=="active"){
         btn3.classList.remove("active");
         btn2.classList.add("active");
-    }
-    const heading=document.querySelector('.tab-content h1')
-    heading.innerHTML="Tab with soft Transition Heading Number 2"
-    const paras=document.querySelectorAll('.tab-content p')
-    for(let para of paras){
-        para.innerHTML="Short paragraphs are easier to read and understand. Writing experts recommend paragraphs of no more than 150 words in three to eight sentences."
-    }
+    
+    head.innerHTML=arr[1]
+    p2.innerHTML= 'What is text message marketing? Text message marketing is the ongoing process of communicating business news, sales'
+    p1.innerHTML='promotions or other relevant information to your customers via SMS (short message service) text messages on their mobile devices.'
 })
+
+
 // Buttton3
 btn3.addEventListener('click',()=>{
-    if(btn1.classList[1]=="active"){
         btn1.classList.remove("active");
-        btn3.classList.add("active")
-    }else if(btn2.classList[1]=="active"){
         btn2.classList.remove("active");
         btn3.classList.add("active");
-    }
-    const heading=document.querySelector('.tab-content h1')
-    heading.innerHTML="Tab with soft My Heading Number 3"
-    const paras=document.querySelectorAll('.tab-content p')
-    for(let para of paras){
-        para.innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eum maiores voluptatibus blanditiis quae quos voluptate omnis debitis non eligendi."
-    }
+    
+    head.innerHTML=arr[2]
+    p1.innerHTML= 'What is text message marketing? Text message marketing is the ongoing process of communicating business news, sales'
+    p2.innerHTML='promotions or other relevant information to your customers via SMS (short message service) text messages on their mobile devices.'
 })
